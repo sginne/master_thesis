@@ -1,0 +1,86 @@
+\documentclass[a4paper,12pt]{report}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+
+% Title page
+\title{Exploring Transformer-Based Models for Named Entity Recognition in Ukrainian}
+\author{Your Name}
+\date{Month Year}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\Large\textbf{Exploring Transformer-Based Models for Named Entity Recognition in Ukrainian}}\\
+\vspace{1cm}
+{\large\textbf{Master's Thesis}}\\
+\vspace{2cm}
+{\large\textbf{Timo Junolainen}}\\
+\vspace{1cm}
+{\large\textbf{Februrary 2023}}\\
+\vfill
+{\large\textbf{Department of Computer Science}}\\
+{\large\textbf{University of Turku}}\\
+\end{titlepage}
+
+% Abstract
+\section*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Named entity recognition (NER)\cite{wiki:Named-entity_recognition} is an important task in natural language processing, consisting of identifying and classifying named entities in text. With the recent success of transformer-based models for NER in high-resource languages, this thesis explores the effectiveness of these models for NER in a low-resource\cite{lowresource} language: Ukrainian\cite{wiki:Ukrainian_language}. The research questions addressed in this thesis include the effectiveness of transformer-based models for NER in Ukrainian, the impact of different pre-training and fine-tuning strategies on model performance, and a comparison of the results to existing state-of-the-art methods for NER in Ukrainian. The objectives of this thesis are to develop transformer-based models for NER in Ukrainian, evaluate their performance on standard benchmarks, analyze the impact of different pre-training and fine-tuning strategies, and compare the results to existing state-of-the-art methods. The experimental results show that transformer-based models can achieve competitive results on NER in Ukrainian with appropriate pre-training and fine-tuning strategies. This thesis contributes to the development of NER models for low-resource languages and provides insights into the effectiveness of transformer-based models for NER in such languages.
+
+% Table of contents
+\tableofcontents
+
+% Introduction
+\chapter{Introduction}
+\section{Motivation behind the work }
+
+Named entity recognition (NER)\cite{wiki:Named-entity_recognition} is one of the primary tasks in natural language processing, and consists of classifying named entities in text, such as people, organizations, and locations. 
+\par 
+Last years, with use of deep learning methods, with transformers, state-of-the-arts results have been achieved with English, Spanish and Chinese languages (ref ?) 
+\par 
+It must be observed, that English, Spanish and Chinese, are high-resource languages,  meaning essentially that a lot of computating power went into finetuning models for English, Spanish and Chinese. 
+\par
+However, there are much so called “low-resource” languages, as for example: 
+\par
+% Low resource languages
+\begin{enumerate}
+    \item     Basque: spoken in the Basque Country, an autonomous region of northern Spain and southwestern France. 
+    \item     Belarusian: spoken in Belarus, a country in Eastern Europe. 
+    \item     Fijian: spoken in Fiji, an island country in the South Pacific. 
+    \item     Irish: spoken primarily in Ireland and Northern Ireland. 
+    \item     Kyrgyz: spoken in Kyrgyzstan, a country in Central Asia. 
+    \item     Luxembourgish: spoken in Luxembourg, a small country in Europe. 
+    \item     Maltese: spoken in Malta, a small island nation in the Mediterranean. 
+    \item     Samoan: spoken in Samoa, an island nation in the South Pacific. 
+    \item     Scottish Gaelic: spoken primarily in Scotland. 
+    \item     Yoruba: spoken in Nigeria and other West African countries. 
+\end{enumerate}
+% Literature review
+\chapter{Literature Review}
+This chapter reviews the literature on NER, with a focus on transformer-based models for NER and existing work on
+
+% Methodology
+\chapter{Methodology}
+\chapter{Results}
+\chapter{Conclusions}
+
+\bibliographystyle{plain}
+\bibliography{mt.bib}
+    
+    
+\end{document}
