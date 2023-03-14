@@ -105,9 +105,23 @@ This paper is build as:
 This chapter reviews the literature on NER, with a focus on transformer-based models for NER and existing work on.
 % 2.1
 \section{Brief review, with history of development in the field}
-Named Entity Recognition (NER) is a subtask of information extraction that involves the identification and classification of entities in texts. It has numerous applications in various fields such as natural language processing, machine learning, and information retrieval. In recent years, NER has received considerable attention from the research community due to its potential to improve the accuracy of downstream tasks such as question answering and machine translation.
+Natural Language Processing (NLP) has a section called named entity recognition (NER) that deals with extracting names, places, organizations, and dates from text. The history of NER development is extensive and spans several decades.
 \par
-Second par
+Rule-based techniques were employed in the 1980s to locate named items in text. These methods entailed manually establishing rules to recognize particular word patterns or word combinations that matched designated things. Unfortunately, the ability of these rule-based systems to deal with ambiguity and variety in language use was frequently constrained.
+\par
+Statistical techniques started to take hold as a fresh approach to NER in the 1990s. With the use of these techniques, named entities might be automatically identified based on statistical patterns by training machine learning models on massive datasets of annotated text. The Maximum Entropy Markov Model was one of the first statistical models for NER (MEMM).
+\par
+Conditional Random Fields (CRFs) sprang to prominence as a NER strategy in the early 2000s. In order to perform better on NER tasks, CRFs are a type of statistical model that can take into account the context and relationships between nearby words in a phrase.
+\par
+Deep learning techniques have also recently been used to NER, notably when using recurrent neural networks (RNNs) and convolutional neural networks as neural network designs (CNNs). Results from these models have been encouraging, especially for tasks involving big and complicated datasets.
+\par 
+Transformer-based models have recently revolutionized NLP and vastly enhanced NER system performance. Examples of these models include the BERT and GPT series. Transformers are a particular sort of neural network design that are very effective for NLP tasks because they can process sequences of tokens, such words or characters, in parallel.
+\par
+For instance, BERT is a pre-trained transformer-based model that has been improved on a number of NER-related downstream NLP tasks. BERT has attained state-of-the-art performance on various NER benchmarks by pre-training on massive volumes of text data and then fine-tuning on certain tasks.
+\par
+Transformers have also facilitated the creation of novel NER strategies, such as combining pre-trained and task-specific transformers to enhance performance on NER tasks that are specialized to a given domain.
+\par
+In conclusion, transformers have become an effective tool for creating NER systems, allowing for more accurate and efficient processing of text input and fostering further advancement in the area.
 \section{Existing NER methods, including Machine Learning approach}
 \section{Discussion about current advances for NER field}
 \section{Review of related NER works in the field of low-resource languages}
