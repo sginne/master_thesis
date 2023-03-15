@@ -135,7 +135,15 @@ For NER, other transformer-based models like RoBERTa, ALBERT, and ELECTRA have a
 The substantial amount of computer resources needed for training and inference is one of the difficulties of employing transformer-based models for NER. Recent studies have, however, looked into techniques to lower these models' computing costs, such as knowledge distillation, pruning, or quantization.
 \par
 \section{Review of related NER works in the field of low-resource languages}
-
+The creation of NER models for low-resource languages is a tough task, as the amount of annotated data is generally limited. Nonetheless, a number of recent studies have investigated methods to solve this issue and enhance the functionality of NER models for low-resource languages.
+\par
+One strategy is to use multilingual pre-trained models that have been trained on a variety of languages, such as XLM-R or mBERT, which can be adjusted on a low-resource language with minimal annotated data. It has been demonstrated that this strategy works for a number of low-resource languages, including Vietnamese, Swahili, and Bengali.
+\par
+A different strategy is to apply cross-lingual transfer learning, in which information from a language with high resources is transferred to a language with low resources. For instance, Zhang et al. (2021) introduced a cross-lingual transfer learning system that converts information from English to African languages with limited resources while obtaining cutting-edge performance on numerous benchmark datasets.
+\par
+Another strategy that has been investigated for NER in low-resource languages is active learning. In order to increase the performance of the model while using less annotated data, active learning entails choosing the most instructive data points to annotate. Al-Rfou et al. (2013), for instance, used active learning to create an Arabic NER system and achieved competitive performance with a minimal amount of annotated data.
+\par
+Overall, there have been several promising works that have explored approaches to improve the performance of NER models for low-resource languages. However, there is still a need for further research in this area to address the challenges of limited annotated data and to develop more effective approaches for low-resource languages.
 
 % Methodology
 \chapter{Methodology}\label{cap:methodology}
