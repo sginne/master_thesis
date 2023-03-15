@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.2.21)  14 MAR 2023 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.2.21)  15 MAR 2023 07:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,27 +445,27 @@ e-art meth-
 Chapter 2.
 [6
 
-] [7]
+] [7] [8]
 Chapter 3.
-[8
+[9
 
 ]
 Chapter 4.
 
-Overfull \hbox (8.45483pt too wide) in paragraph at lines 139--139
+Overfull \hbox (8.45483pt too wide) in paragraph at lines 149--149
 []\T1/cmr/bx/n/17.28 Discussion on im-pact of model ar-chi-tec-tures,
  []
 
 
-Overfull \hbox (15.59311pt too wide) in paragraph at lines 139--139
+Overfull \hbox (15.59311pt too wide) in paragraph at lines 149--149
 \T1/cmr/bx/n/17.28 pre-train-ing and fine-tun-ing on the per-fo-mance
  []
 
-[9
+[10
 
 ]
 Chapter 5.
-(./master.thesis.bbl [10
+(./master.thesis.bbl [11
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
@@ -484,17 +484,17 @@ Underfull \hbox (badness 1527) in paragraph at lines 16--22
 / index . php ? title = Ukrainian %
  []
 
-) [11
+) [12
 
 ] (./master.thesis.aux)
 Package rerunfilecheck Info: File `master.thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BA3E0AF73AB5F211D3BF874954A0B8C4;5133.
+(rerunfilecheck)             Checksum: 3D4D235C508D28F1F6E187A1F8CAD22D;4775.
  ) 
 Here is how much of TeX's memory you used:
- 12151 strings out of 479305
- 192040 string characters out of 5872607
- 485430 words of memory out of 5000000
- 29978 multiletter control sequences out of 15000+600000
+ 12150 strings out of 479305
+ 192023 string characters out of 5872607
+ 485431 words of memory out of 5000000
+ 29977 multiletter control sequences out of 15000+600000
  480391 words of font info for 55 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
  67i,6n,77p,1410b,427s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -504,10 +504,10 @@ m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sftt1200.pfb>
-Output written on master.thesis.pdf (12 pages, 148513 bytes).
+Output written on master.thesis.pdf (13 pages, 149395 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
+ 220 compressed objects within 3 object streams
  59 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,17 +6,16 @@
 \contentsline {section}{\numberline {1.3}Overview of this works report structure}{4}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Brief review, with history of development in the field}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Existing NER methods, including Machine Learning approach}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Discussion about current advances for NER field}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Review of related NER works in the field of low-resource languages}{7}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Methodology}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Dataset description and preprocessing}{8}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Overview of transformer models, including strategies of pretraining and finetunning}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Metrics and procedures evaluation}{8}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Results}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Analysis of experiment results}{9}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Discussion on impact of model architectures, pretraining and finetuning on the perfomance of the models}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Comparing results to the current achievements}{9}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusions}{10}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary}{10}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Potential for the future, current limitations}{10}{section.5.2}%
+\contentsline {section}{\numberline {2.2}Discussion about current advances for NER field}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Review of related NER works in the field of low-resource languages}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Methodology}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dataset description and preprocessing}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Overview of transformer models, including strategies of pretraining and finetunning}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Metrics and procedures evaluation}{9}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Results}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Analysis of experiment results}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Discussion on impact of model architectures, pretraining and finetuning on the perfomance of the models}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Comparing results to the current achievements}{10}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusions}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Potential for the future, current limitations}{11}{section.5.2}%
