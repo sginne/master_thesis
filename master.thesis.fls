@@ -1,4 +1,4 @@
-PWD /home/sginne/src/master.thesis.ua
+PWD /home/sginne/src/master_thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
@@ -19,7 +19,6 @@ INPUT /usr/share/texmf/tex/latex/base/size12.clo
 INPUT /usr/share/texmf/tex/latex/base/size12.clo
 INPUT /usr/share/texmf/tex/latex/base/size12.clo
 INPUT /usr/share/texmf/tex/latex/base/size12.clo
-INPUT /usr/share/texmf/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texmf/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf/tex/latex/base/inputenc.sty
 INPUT /usr/share/texmf/tex/latex/base/inputenc.sty

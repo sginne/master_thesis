@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.2.21)  15 MAR 2023 07:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.3.15)  16 MAR 2023 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -35,7 +35,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
-\l@unhyphenated=\language53
+\l@unhyphenated=\language14
 
 (/usr/share/texmf/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -46,9 +46,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language14). Reported on input line 105.
+(babel)             (\language7). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language14). Reported on input line 108.
+(babel)             (\language7). Reported on input line 108.
 ))
 (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
@@ -452,12 +452,12 @@ Chapter 3.
 ]
 Chapter 4.
 
-Overfull \hbox (8.45483pt too wide) in paragraph at lines 157--157
+Overfull \hbox (8.45483pt too wide) in paragraph at lines 158--158
 []\T1/cmr/bx/n/17.28 Discussion on im-pact of model ar-chi-tec-tures,
  []
 
 
-Overfull \hbox (15.59311pt too wide) in paragraph at lines 157--157
+Overfull \hbox (15.59311pt too wide) in paragraph at lines 158--158
 \T1/cmr/bx/n/17.28 pre-train-ing and fine-tun-ing on the per-fo-mance
  []
 
@@ -491,12 +491,12 @@ Package rerunfilecheck Info: File `master.thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3D4D235C508D28F1F6E187A1F8CAD22D;4775.
  ) 
 Here is how much of TeX's memory you used:
- 12150 strings out of 479305
- 192023 string characters out of 5872607
- 485431 words of memory out of 5000000
- 29977 multiletter control sequences out of 15000+600000
+ 12150 strings out of 480061
+ 192023 string characters out of 5892401
+ 483457 words of memory out of 5000000
+ 29919 multiletter control sequences out of 15000+600000
  480391 words of font info for 55 fonts, out of 8000000 for 9000
- 475 hyphenation exceptions out of 8191
+ 81 hyphenation exceptions out of 8191
  67i,6n,77p,1410b,427s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
@@ -504,7 +504,7 @@ m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sftt1200.pfb>
-Output written on master.thesis.pdf (13 pages, 151497 bytes).
+Output written on master.thesis.pdf (13 pages, 151913 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  220 compressed objects within 3 object streams
