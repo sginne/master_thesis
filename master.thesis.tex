@@ -150,6 +150,13 @@ Overall, there have been several promising works that have explored approaches t
 \section{Dataset description and preprocessing}
 ** About dataset **
 \section{Overview of transformer models, including strategies of pretraining and finetunning}
+In tasks involving named entity recognition in natural language processing (NLP), transformer models like BERT, RoBERTa, and DistilBERT have grown in popularity (NER). These models are built on a self-attention mechanism that enables them to focus on various input sequence elements and recognize intricate correlations between words.
+\par
+In most cases, the transformer architecture comprises of an encoder that receives a sequence of tokens as input and generates a sequence of hidden representations that can be applied to subsequent tasks like NER. For a particular downstream job, such as NER, the encoder is typically fine-tuned on a smaller labeled dataset after being pre-trained on a huge corpus of text using unsupervised learning.
+\par
+Transformer models for NER can be pre-trained and fine-tuned using a variety of techniques. Pre-training a multilingual transformer model on a sizable corpus of text from various languages, including Ukrainian, is one such method. A smaller labeled dataset of Ukrainian text can then be used to fine-tune the pre-trained model for NER.
+\par
+Another strategy is to use a sizable corpus of labeled data, such as the ** Ask **
 \section{Metrics and procedures evaluation}
 
 
