@@ -4,6 +4,11 @@
 Felix Laumann.
 \newblock Low resource languages, Jun 2022.
 
+\bibitem{crosslanguage}
+Peng Shi, Rui Zhang, He~Bai, and Jimmy Lin.
+\newblock Cross-lingual training with dense retrieval for document retrieval,
+  2021.
+
 \bibitem{wiki:Named-entity_recognition}
 Wikipedia.
 \newblock {Named-entity recognition} --- {W}ikipedia{,} the free encyclopedia.

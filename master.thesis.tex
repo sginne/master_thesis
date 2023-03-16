@@ -14,6 +14,7 @@
 \usepackage{multirow}
 \usepackage{array}
 
+
 % Title page
 \title{Exploring Transformer-Based Models for Named Entity Recognition in Ukrainian}
 \author{Your Name}
@@ -139,7 +140,7 @@ The creation of NER models for low-resource languages is a tough task, as the am
 \par
 One strategy is to use multilingual pre-trained models that have been trained on a variety of languages, such as XLM-R or mBERT, which can be adjusted on a low-resource language with minimal annotated data. It has been demonstrated that this strategy works for a number of low-resource languages, including Vietnamese, Swahili, and Bengali.
 \par
-A different strategy is to apply cross-lingual transfer learning, in which information from a language with high resources is transferred to a language with low resources. For instance, Zhang et al. (2021) introduced a cross-lingual transfer learning system that converts information from English to African languages with limited resources while obtaining cutting-edge performance on numerous benchmark datasets.
+A different strategy is to apply cross-lingual transfer learning, in which information from a language with high resources is transferred to a language with low resources. For instance, Zhang et al. (2021)\cite{crosslanguage} introduced a cross-lingual transfer learning system that converts information from English to African languages with limited resources while obtaining cutting-edge performance on numerous benchmark datasets.
 \par
 Another strategy that has been investigated for NER in low-resource languages is active learning. In order to increase the performance of the model while using less annotated data, active learning entails choosing the most instructive data points to annotate. Al-Rfou et al. (2013), for instance, used active learning to create an Arabic NER system and achieved competitive performance with a minimal amount of annotated data.
 \par
