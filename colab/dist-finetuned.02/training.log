@@ -1,0 +1,77 @@
+2024-09-07 14:42:27,715 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,717 Model: "SequenceTagger(
+  (embeddings): TransformerWordEmbeddings(
+    (model): DistilBertModel(
+      (embeddings): Embeddings(
+        (word_embeddings): Embedding(119548, 768, padding_idx=0)
+        (position_embeddings): Embedding(512, 768)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (transformer): Transformer(
+        (layer): ModuleList(
+          (0-5): 6 x TransformerBlock(
+            (attention): MultiHeadSelfAttention(
+              (dropout): Dropout(p=0.1, inplace=False)
+              (q_lin): Linear(in_features=768, out_features=768, bias=True)
+              (k_lin): Linear(in_features=768, out_features=768, bias=True)
+              (v_lin): Linear(in_features=768, out_features=768, bias=True)
+              (out_lin): Linear(in_features=768, out_features=768, bias=True)
+            )
+            (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (ffn): FFN(
+              (dropout): Dropout(p=0.1, inplace=False)
+              (lin1): Linear(in_features=768, out_features=3072, bias=True)
+              (lin2): Linear(in_features=3072, out_features=768, bias=True)
+              (activation): GELUActivation()
+            )
+            (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          )
+        )
+      )
+    )
+  )
+  (word_dropout): WordDropout(p=0.05)
+  (locked_dropout): LockedDropout(p=0.5)
+  (embedding2nn): Linear(in_features=768, out_features=768, bias=True)
+  (rnn): LSTM(768, 128, batch_first=True, bidirectional=True)
+  (linear): Linear(in_features=256, out_features=17, bias=True)
+  (loss_function): CrossEntropyLoss()
+)"
+2024-09-07 14:42:27,717 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,718 Corpus: 7886 train + 876 dev + 4045 test sentences
+2024-09-07 14:42:27,719 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,719 Train:  8762 sentences
+2024-09-07 14:42:27,720         (train_with_dev=True, train_with_test=False)
+2024-09-07 14:42:27,720 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,721 Training Params:
+2024-09-07 14:42:27,722  - learning_rate: "0.01" 
+2024-09-07 14:42:27,722  - mini_batch_size: "1"
+2024-09-07 14:42:27,722  - max_epochs: "2"
+2024-09-07 14:42:27,723  - shuffle: "True"
+2024-09-07 14:42:27,724 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,725 Plugins:
+2024-09-07 14:42:27,725  - AnnealOnPlateau | patience: '3', anneal_factor: '0.5', min_learning_rate: '0.0001'
+2024-09-07 14:42:27,726 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,726 Final evaluation on model from best epoch (best-model.pt)
+2024-09-07 14:42:27,727  - metric: "('micro avg', 'f1-score')"
+2024-09-07 14:42:27,728 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,728 Computation:
+2024-09-07 14:42:27,729  - compute on device: cuda:0
+2024-09-07 14:42:27,730  - embedding storage: cpu
+2024-09-07 14:42:27,730 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,731 Model training base path: "dist-finetuned.02"
+2024-09-07 14:42:27,731 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:42:27,732 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:43:24,010 epoch 1 - iter 876/8762 - loss 0.27944985 - time (sec): 56.28 - samples/sec: 272.37 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:44:15,536 epoch 1 - iter 1752/8762 - loss 0.24835069 - time (sec): 107.80 - samples/sec: 286.96 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:45:05,452 epoch 1 - iter 2628/8762 - loss 0.21147224 - time (sec): 157.72 - samples/sec: 298.64 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:45:56,291 epoch 1 - iter 3504/8762 - loss 0.20243232 - time (sec): 208.56 - samples/sec: 299.21 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:46:47,479 epoch 1 - iter 4380/8762 - loss 0.18892133 - time (sec): 259.75 - samples/sec: 303.46 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:47:38,454 epoch 1 - iter 5256/8762 - loss 0.17658149 - time (sec): 310.72 - samples/sec: 302.95 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:48:29,315 epoch 1 - iter 6132/8762 - loss 0.17339285 - time (sec): 361.58 - samples/sec: 304.70 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:49:19,849 epoch 1 - iter 7008/8762 - loss 0.16664321 - time (sec): 412.12 - samples/sec: 307.10 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:50:12,939 epoch 1 - iter 7884/8762 - loss 0.16184251 - time (sec): 465.21 - samples/sec: 306.51 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:51:04,596 epoch 1 - iter 8760/8762 - loss 0.15906411 - time (sec): 516.86 - samples/sec: 307.06 - lr: 0.010000 - momentum: 0.000000
+2024-09-07 14:51:04,808 ----------------------------------------------------------------------------------------------------
+2024-09-07 14:51:04,809 EPOCH 1 done: loss 0.1591 - lr: 0.010000
